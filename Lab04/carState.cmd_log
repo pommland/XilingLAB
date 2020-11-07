@@ -1,0 +1,15 @@
+xst -intstyle ise -ifn "C:/Users/62010472/Documents/XILING_LAB/Lab04/carState.xst" -ofn "C:/Users/62010472/Documents/XILING_LAB/Lab04/carState.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim carState.ngc carState_synthesis.v 
+xst -intstyle ise -ifn "C:/Users/62010472/Documents/XILING_LAB/Lab04/carState.xst" -ofn "C:/Users/62010472/Documents/XILING_LAB/Lab04/carState.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim carState.ngc carState_synthesis.v 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc carState.ucf -p xc6slx9-tqg144-3 carState.ngc carState.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o carState_map.ncd carState.ngd carState.pcf 
+par -w -intstyle ise -ol high -mt off carState_map.ncd carState.ncd carState.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml carState.twx carState.ncd -o carState.twr carState.pcf -ucf carState.ucf 
+xst -intstyle ise -ifn "C:/Users/62010472/Documents/XILING_LAB/Lab04/carState.xst" -ofn "C:/Users/62010472/Documents/XILING_LAB/Lab04/carState.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc carState.ucf -p xc6slx9-tqg144-3 carState.ngc carState.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o carState_map.ncd carState.ngd carState.pcf 
+par -w -intstyle ise -ol high -mt off carState_map.ncd carState.ncd carState.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml carState.twx carState.ncd -o carState.twr carState.pcf -ucf carState.ucf 
+bitgen -intstyle ise -f carState.ut carState.ncd 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim carState.ngc carState_synthesis.v 

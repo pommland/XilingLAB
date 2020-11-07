@@ -1,0 +1,402 @@
+add instance or4 1392 512 R0 -sn=1
+add instance or4 1392 992 R0 -sn=1
+add instance or3 1392 1392 R0 -sn=1
+select figure at 807 174 8 -branches -sn=1
+select all in 807 174 2036 1658 -branches -enclosed -sn=1
+move selection by 544 48 -keepConn -sn=1
+move selection by 624 32 -keepConn -sn=1
+move selection by -336 0 -keepConn -sn=1
+add instance and3 1680 416 R0 -sn=1
+add instance and3 1680 624 R0 -sn=1
+add instance and3 1680 832 R0 -sn=1
+add instance and2 1376 480 R0 -sn=1
+select figure at 1747 273 8 -branches -sn=1
+select figure at 1859 190 8 -branches -sn=1
+select figure at 1755 305 8 -branches -sn=1
+move instance at 1680 416 to 1680 432 R0 -keepConn -sn=1
+move instance at 1680 432 to 1680 400 R0 -keepConn -sn=1
+move instance at 1680 400 to 1776 368 R0 -keepConn -sn=1
+select figure at 3525 2372 8 -branches -sn=1
+select figure at 3189 1166 8 -branches -sn=1
+select figure at 2752 1117 8 -branches -sn=1
+select figure at 2374 1323 8 -branches -sn=1
+select figure at 2528 1278 8 -branches -sn=1
+select figure at 3530 -13 8 -branches -sn=1
+select all in 3530 -83 3676 -13 -branches -enclosed -sn=1
+select figure at 3530 -5 8 -branches -sn=1
+select all in 3530 -52 3653 -5 -branches -enclosed -sn=1
+add instance cd4ce 976 1824 R0 -sn=1
+select figure at 1114 1591 8 -branches -sn=1
+select figure at 1086 125 8 -branches -sn=1
+select all in 1086 125 3038 1135 -branches -enclosed -sn=1
+delete selection -sn=1
+select figure at 2156 929 8 -branches -sn=1
+select all in 2156 929 2609 1718 -branches -enclosed -sn=1
+delete selection -sn=1
+select figure at 2846 1080 8 -branches -sn=1
+undo
+select figure at 2242 1255 8 -branches -sn=1
+undo
+select figure at 1429 1065 8 -branches -sn=1
+select all in 1429 1065 1463 1104 -branches -enclosed -sn=1
+undo
+undo
+undo
+select figure at 1645 1260 8 -branches -sn=1
+undo
+undo
+undo
+undo
+undo
+undo
+undo
+undo
+undo
+undo
+redo
+redo
+redo
+redo
+redo
+redo
+redo
+undo
+select figure at 1716 1403 8 -branches -sn=1
+select figure at 2179 2098 8 -branches -sn=1
+select figure at 3304 2580 8 -branches -sn=1
+select figure at 3304 2580 8 -branches -sn=1
+select figure at 3513 2729 8 -branches -sn=1
+select figure at 3513 2722 8 -branches -all -sn=1
+select figure at 2669 2722 8 -branches -sn=1
+select figure at 2669 2722 8 -branches -all -sn=1
+resize sheets 1 "1|1|7040|5440|10|Inch|E = 44 x 34 in"
+select figure at 3671 3572 8 -branches -sn=1
+select figure at -10 4453 8 -branches -sn=1
+select figure at -10 4453 8 -branches -sn=1
+select figure at 1545 5454 8 -branches -sn=1
+select figure at 1545 5454 8 -branches -all -sn=1
+select figure at 1240 1594 8 -branches -sn=1
+move instance at 976 1824 to 784 1840 R0 -keepConn -sn=1
+delete selection -sn=1
+select figure at 1842 2148 8 -branches -sn=1
+select all in 1842 2148 1917 2375 -branches -enclosed -sn=1
+select figure at 2531 983 8 -branches -sn=1
+select figure at 2359 1340 8 -branches -sn=1
+delete selection -sn=1
+select figure at 2356 967 8 -branches -sn=1
+delete selection -sn=1
+select figure at 1811 723 8 -branches -sn=1
+move instance at 1680 832 to 1824 928 R0 -keepConn -sn=1
+select figure at 1788 502 8 -branches -sn=1
+move instance at 1680 624 to 1824 768 R0 -keepConn -sn=1
+select figure at 1465 371 8 -branches -sn=1
+move instance at 1376 480 to 1792 576 R0 -keepConn -sn=1
+select figure at 1873 258 8 -branches -sn=1
+move instance at 1776 368 to 1872 464 R0 -keepConn -sn=1
+move instance at 1872 464 to 1872 448 R0 -keepConn -sn=1
+select figure at 1925 513 8 -branches -sn=1
+move instance at 1792 576 to 1840 560 R0 -keepConn -sn=1
+move instance at 1840 560 to 1856 560 R0 -keepConn -sn=1
+move instance at 1856 560 to 1872 544 R0 -keepConn -sn=1
+select figure at 1971 633 8 -branches -sn=1
+move instance at 1824 768 to 1920 720 R0 -keepConn -sn=1
+move instance at 1920 720 to 1872 720 R0 -keepConn -sn=1
+select figure at 2321 883 8 -branches -sn=1
+select figure at 1923 848 8 -branches -sn=1
+move instance at 1824 928 to 1872 880 R0 -keepConn -sn=1
+select figure at 2163 1094 8 -branches -sn=1
+select figure at 1994 310 8 -branches -sn=1
+move instance at 1872 448 to 1872 432 R0 -keepConn -sn=1
+select figure at 2302 444 8 -branches -sn=1
+move instance at 2224 592 to 2192 688 R0 -keepConn -sn=1
+add instance inv 1616 272 R0 -sn=1
+add instance inv 1632 336 R0 -sn=1
+add instance inv 1632 400 R0 -sn=1
+undo
+undo
+add instance inv 1600 336 R0 -sn=1
+add instance inv 1616 400 R0 -sn=1
+undo
+undo
+add instance inv 1616 352 R0 -sn=1
+add instance inv 1616 432 R0 -sn=1
+add instance inv 1616 544 R0 -sn=1
+select figure at 1811 604 8 -branches -sn=1
+select all in 1811 604 2198 969 -branches -enclosed -sn=1
+select figure at 1792 571 8 -branches -sn=1
+move instance at 1616 544 to 2000 880 R0 -keepConn -sn=1
+select figure at 2184 910 8 -branches -sn=1
+undo
+undo
+select figure at 1840 744 8 -branches -sn=1
+select figure at 1752 571 8 -branches -sn=1
+move instance at 1616 544 to 2016 928 R0 -keepConn -sn=1
+undo
+select figure at 1754 602 8 -branches -sn=1
+select figure at 1754 602 8 -branches -all -sn=1
+select figure at 1996 863 8 -branches -sn=1
+select figure at 2142 1096 8 -branches -sn=1
+select figure at 2156 1115 8 -branches -sn=1
+select all in 1813 585 2156 1115 -branches -enclosed -sn=1
+select figure at 2275 1061 8 -branches -sn=1
+select all in 1842 558 2275 1061 -branches -enclosed -sn=1
+select figure at 2296 1013 8 -branches -sn=1
+select all in 1838 506 2296 1013 -branches -enclosed -sn=1
+move selection by 0 320 -keepConn -sn=1
+select figure at 2021 750 8 -branches -sn=1
+select all in 1934 392 2021 750 -branches -enclosed -sn=1
+select figure at 2015 690 8 -branches -sn=1
+select all in 1963 323 2015 690 -branches -enclosed -sn=1
+select figure at 1986 648 8 -branches -sn=1
+select all in 1986 375 2079 648 -branches -enclosed -sn=1
+select figure at 1842 619 8 -branches -sn=1
+select all in 1842 385 2106 619 -branches -enclosed -sn=1
+select figure at 1934 427 8 -branches -sn=1
+move instance at 1872 544 to 1888 704 R0 -keepConn -sn=1
+select figure at 2309 521 8 -branches -sn=1
+move instance at 2192 688 to 2416 784 R0 -keepConn -sn=1
+select figure at 2011 600 8 -branches -sn=1
+move instance at 1888 704 to 2000 688 R0 -keepConn -sn=1
+select figure at 1725 506 8 -branches -sn=1
+move instance at 1616 544 to 1616 528 R0 -keepConn -sn=1
+select figure at 1827 685 8 -branches -sn=1
+select figure at 1711 502 8 -branches -sn=1
+move instance at 1616 528 to 1616 560 R0 -keepConn -sn=1
+select figure at 1900 740 8 -branches -sn=1
+select figure at 2100 606 8 -branches -sn=1
+move instance at 2000 688 to 1872 656 R0 -keepConn -sn=1
+select figure at 2102 769 8 -branches -sn=1
+select figure at 2031 927 8 -branches -sn=1
+move instance at 1872 1040 to 1872 848 R0 -keepConn -sn=1
+select figure at 1708 517 8 -branches -sn=1
+BeginGroup
+ADD INSTANCE inv 1600 704 R0 -sn=1
+PASTE NAME INSTANCE AT 1712 672 XLXI_26 -NoDuplicateNetNames -sn=1
+EndGroup
+select figure at 1667 677 8 -branches -sn=1
+move instance at 1600 704 to 1632 688 R0 -keepConn -sn=1
+move instance at 1632 688 to 1616 688 R0 -keepConn -sn=1
+select figure at 2269 890 8 -branches -sn=1
+select figure at 1725 652 8 -branches -sn=1
+BeginGroup
+ADD INSTANCE inv 1616 1104 R0 -sn=1
+PASTE NAME INSTANCE AT 1728 1072 XLXI_29 -NoDuplicateNetNames -sn=1
+EndGroup
+select figure at 1681 1077 8 -branches -sn=1
+BeginGroup
+ADD INSTANCE inv 1616 1200 R0 -sn=1
+PASTE NAME INSTANCE AT 1728 1168 XLXI_29 -NoDuplicateNetNames -sn=1
+EndGroup
+select figure at 1713 1165 8 -branches -sn=1
+move instance at 1616 1200 to 1616 1184 R0 -keepConn -sn=1
+select figure at 1869 1283 8 -branches -sn=1
+select figure at 1942 1102 8 -branches -sn=1
+move instance at 1872 1200 to 1856 1200 R0 -keepConn -sn=1
+delete selection -sn=1
+select figure at 2004 723 8 -branches -sn=1
+BeginGroup
+ADD INSTANCE and3 1952 1072 R0 -sn=1
+PASTE NAME INSTANCE AT 2080 944 XLXI_14 -NoDuplicateNetNames -sn=1
+EndGroup
+select figure at 1994 929 8 -branches -sn=1
+move instance at 1952 1072 to 1872 1040 R0 -keepConn -sn=1
+select figure at 1700 1075 8 -branches -sn=1
+move instance at 1616 1104 to 1616 944 R0 -keepConn -sn=1
+select figure at 1696 1158 8 -branches -sn=1
+move instance at 1616 1184 to 1616 1024 R0 -keepConn -sn=1
+select figure at 2115 1225 8 -branches -sn=1
+select figure at 2509 638 8 -branches -sn=1
+move instance at 2416 784 to 2208 768 R0 -keepConn -sn=1
+add autowire 1840 240 1872 240 8 -sn=1
+add autowire 1840 320 1872 304 8 -sn=1
+add autowire 1840 400 1872 368 8 -sn=1
+add autowire 1840 528 1872 528 8 -sn=1
+add autowire 1616 592 1872 592 8 -sn=1
+add autowire 1616 720 1872 720 8 -sn=1
+add autowire 1840 656 1888 656 8 -sn=1
+undo
+select figure at 1846 708 8 -branches -sn=1
+undo
+select figure at 1596 746 8 -branches -sn=1
+select all in 1596 746 1725 813 -branches -enclosed -sn=1
+select figure at 1619 750 8 -branches -sn=1
+select all in 1619 750 1873 800 -branches -enclosed -sn=1
+add autowire 1872 656 1840 656 8 -sn=1
+add autowire 1872 784 1616 784 8 -sn=1
+select figure at 1761 825 8 -branches -sn=1
+add autowire 1840 912 1872 912 8 -sn=1
+add autowire 1840 992 1872 976 8 -sn=1
+add autowire 1872 848 1616 848 8 -sn=1
+add autowire 1616 848 1792 1104 8 -sn=1
+undo
+select figure at 2052 1154 8 -branches -sn=1
+add autowire 2128 304 2208 512 8 -sn=1
+add autowire 2128 560 2208 576 8 -sn=1
+add autowire 2128 720 2208 640 8 -sn=1
+add autowire 2208 704 2128 912 8 -sn=1
+BeginGroup
+add wire 2464 608 2496 608 -sn=1
+add iomarker 2496 608 0 Output Unknown -sn=1
+EndGroup
+select figure at 2619 596 8 -branches -sn=1
+select figure at 2619 596 8 -branches -all -sn=1
+set attr NA|XLXN_17|Name value a -sn=1
+select figure at 2306 1658 8 -branches -sn=1
+select figure at 1972 351 8 -branches -sn=1
+select figure at 1991 597 8 -branches -sn=1
+BeginGroup
+ADD INSTANCE and2 1856 1328 R0 -sn=1
+PASTE NAME INSTANCE AT 1984 1232 XLXI_16 -NoDuplicateNetNames -sn=1
+EndGroup
+select figure at 1971 752 8 -branches -sn=1
+BeginGroup
+ADD INSTANCE and3 1872 1536 R0 -sn=1
+PASTE NAME INSTANCE AT 2000 1408 XLXI_14 -NoDuplicateNetNames -sn=1
+EndGroup
+select figure at 1967 1214 8 -branches -sn=1
+BeginGroup
+ADD INSTANCE and2 1872 1696 R0 -sn=1
+PASTE NAME INSTANCE AT 2000 1600 XLXI_33 -NoDuplicateNetNames -sn=1
+EndGroup
+select figure at 1967 1434 8 -branches -sn=1
+BeginGroup
+ADD INSTANCE and3 1904 1936 R0 -sn=1
+PASTE NAME INSTANCE AT 2032 1808 XLXI_34 -NoDuplicateNetNames -sn=1
+EndGroup
+select figure at 1684 660 8 -branches -sn=1
+BeginGroup
+ADD INSTANCE inv 1584 1200 R0 -sn=1
+PASTE NAME INSTANCE AT 1696 1168 XLXI_29 -NoDuplicateNetNames -sn=1
+EndGroup
+BeginGroup
+ADD INSTANCE inv 1584 1296 R0 -sn=1
+PASTE NAME INSTANCE AT 1696 1264 XLXI_29 -NoDuplicateNetNames -sn=1
+EndGroup
+BeginGroup
+ADD INSTANCE inv 1600 1392 R0 -sn=1
+PASTE NAME INSTANCE AT 1712 1360 XLXI_29 -NoDuplicateNetNames -sn=1
+EndGroup
+BeginGroup
+ADD INSTANCE inv 1600 1456 R0 -sn=1
+PASTE NAME INSTANCE AT 1712 1424 XLXI_29 -NoDuplicateNetNames -sn=1
+EndGroup
+BeginGroup
+ADD INSTANCE inv 1616 1520 R0 -sn=1
+PASTE NAME INSTANCE AT 1728 1488 XLXI_29 -NoDuplicateNetNames -sn=1
+EndGroup
+BeginGroup
+ADD INSTANCE inv 1600 1600 R0 -sn=1
+PASTE NAME INSTANCE AT 1712 1568 XLXI_29 -NoDuplicateNetNames -sn=1
+EndGroup
+BeginGroup
+ADD INSTANCE inv 1600 1664 R0 -sn=1
+PASTE NAME INSTANCE AT 1712 1632 XLXI_29 -NoDuplicateNetNames -sn=1
+EndGroup
+BeginGroup
+ADD INSTANCE inv 1616 1776 R0 -sn=1
+PASTE NAME INSTANCE AT 1728 1744 XLXI_29 -NoDuplicateNetNames -sn=1
+EndGroup
+select figure at 2328 622 8 -branches -sn=1
+BeginGroup
+ADD INSTANCE or4 2224 1648 R0 -sn=1
+PASTE NAME INSTANCE AT 2352 1488 XLXI_1 -NoDuplicateNetNames -sn=1
+EndGroup
+select figure at 1677 1163 8 -branches -sn=1
+move instance at 1584 1200 to 1600 1184 R0 -keepConn -sn=1
+move instance at 1600 1184 to 1520 1184 R0 -keepConn -sn=1
+select figure at 1964 1214 8 -branches -sn=1
+move instance at 1856 1328 to 1856 1264 R0 -keepConn -sn=1
+move instance at 1856 1264 to 1856 1232 R0 -keepConn -sn=1
+select figure at 1606 1155 8 -branches -sn=1
+move instance at 1520 1184 to 1616 1136 R0 -keepConn -sn=1
+select figure at 1672 1274 8 -branches -sn=1
+move instance at 1584 1296 to 1616 1216 R0 -keepConn -sn=1
+select figure at 1675 1344 8 -branches -sn=1
+move instance at 1600 1392 to 1616 1328 R0 -keepConn -sn=1
+select figure at 1959 1422 8 -branches -sn=1
+move instance at 1872 1536 to 1856 1472 R0 -keepConn -sn=1
+move instance at 1856 1472 to 1856 1488 R0 -keepConn -sn=1
+select figure at 1689 1425 8 -branches -sn=1
+move instance at 1600 1456 to 1616 1456 R0 -keepConn -sn=1
+move instance at 1616 1456 to 1616 1408 R0 -keepConn -sn=1
+select figure at 1705 1491 8 -branches -sn=1
+move instance at 1616 1520 to 1616 1488 R0 -keepConn -sn=1
+select figure at 1946 1125 8 -branches -sn=1
+move instance at 1856 1232 to 1872 1232 R0 -keepConn -sn=1
+select figure at 2005 1349 8 -branches -sn=1
+move instance at 1856 1488 to 1872 1488 R0 -keepConn -sn=1
+select figure at 2398 1811 8 -branches -sn=1
+select figure at 1691 1636 8 -branches -sn=1
+move instance at 1600 1664 to 1616 1680 R0 -keepConn -sn=1
+select figure at 1693 1564 8 -branches -sn=1
+move instance at 1600 1600 to 1616 1600 R0 -keepConn -sn=1
+select figure at 2136 2016 8 -branches -sn=1
+select figure at 1998 1781 8 -branches -sn=1
+move instance at 1904 1936 to 1872 1936 R0 -keepConn -sn=1
+select figure at 2177 1920 8 -branches -sn=1
+add autowire 1872 1104 1840 1104 8 -sn=1
+add autowire 1872 1168 1840 1184 8 -sn=1
+add autowire 1872 1296 1840 1296 8 -sn=1
+add autowire 1872 1360 1840 1376 8 -sn=1
+add autowire 1872 1424 1840 1456 8 -sn=1
+add autowire 1840 1568 1872 1568 8 -sn=1
+add autowire 1872 1632 1840 1648 8 -sn=1
+add autowire 1872 1744 1840 1744 8 -sn=1
+add autowire 1872 1808 1616 1808 8 -sn=1
+add autowire 1872 1872 1616 1872 8 -sn=1
+add autowire 2128 1136 2224 1392 8 -sn=1
+add autowire 2128 1360 2224 1456 8 -sn=1
+add autowire 2128 1600 2224 1520 8 -sn=1
+add autowire 2224 1584 2128 1808 8 -sn=1
+select figure at 1516 1050 8 -branches -sn=1
+select all in 1516 1050 2584 2042 -branches -enclosed -sn=1
+move selection by 0 32 -keepConn -sn=1
+select figure at 2188 1071 8 -branches -sn=1
+select figure at 1479 184 8 -branches -sn=1
+select all in 1479 184 2570 1049 -branches -enclosed -sn=1
+move selection by -16 -64 -keepConn -sn=1
+undo
+move selection by 0 -64 -keepConn -sn=1
+select figure at 1517 1016 8 -branches -sn=1
+select all in 1517 1016 2564 1957 -branches -enclosed -sn=1
+select figure at 1452 979 8 -branches -sn=1
+select all in 1452 979 2455 1971 -branches -enclosed -sn=1
+select figure at 1472 1000 8 -branches -sn=1
+select all in 1472 1000 2722 1997 -branches -enclosed -sn=1
+move selection by 0 -80 -keepConn -sn=1
+select figure at 2254 979 8 -branches -sn=1
+BeginGroup
+add wire 2480 1440 2512 1440 -sn=1
+add iomarker 2512 1440 0 Output Unknown -sn=1
+EndGroup
+select figure at 2563 1448 8 -branches -sn=1
+select figure at 2563 1448 8 -branches -all -sn=1
+set attr NA|XLXN_92|Name value b -sn=1
+select figure at 3033 813 8 -branches -sn=1
+add instance or5 2272 2272 R0 -sn=1
+select figure at 2393 2078 8 -branches -sn=1
+move instance at 2272 2272 to 2304 2448 R0 -keepConn -sn=1
+select figure at 1960 1346 8 -branches -sn=1
+select figure at 1972 2064 8 -branches -sn=1
+BeginGroup
+ADD INSTANCE and3 1904 2160 R0 -sn=1
+PASTE NAME INSTANCE AT 2032 2032 XLXI_34 -NoDuplicateNetNames -sn=1
+EndGroup
+BeginGroup
+ADD INSTANCE and3 1936 2400 R0 -sn=1
+PASTE NAME INSTANCE AT 2064 2272 XLXI_34 -NoDuplicateNetNames -sn=1
+EndGroup
+BeginGroup
+ADD INSTANCE and3 1920 2608 R0 -sn=1
+PASTE NAME INSTANCE AT 2048 2480 XLXI_34 -NoDuplicateNetNames -sn=1
+EndGroup
+BeginGroup
+ADD INSTANCE and3 1968 3008 R0 -sn=1
+PASTE NAME INSTANCE AT 2096 2880 XLXI_34 -NoDuplicateNetNames -sn=1
+EndGroup
+add instance and4 1920 2832 R0 -sn=1
+select figure at 1660 1948 8 -branches -sn=1
+select all in 1660 1948 2573 3261 -branches -enclosed -sn=1
+move selection by -16 640 -keepConn -sn=1
+move selection by 16 352 -keepConn -sn=1
+move selection by -64 336 -keepConn -sn=1

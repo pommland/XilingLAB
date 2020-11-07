@@ -1,0 +1,80 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 3
+-n 3 -fastpaths -xml counter0_9.twx counter0_9.ncd -o counter0_9.twr
+counter0_9.pcf -ucf counter0_9.ucf
+
+Design file:              counter0_9.ncd
+Physical constraint file: counter0_9.pcf
+Device,package,speed:     xc6slx9,tqg144,C,-3 (PRODUCTION 1.23 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+IN_0           |a              |    7.274|
+IN_0           |b              |    7.636|
+IN_0           |c              |    7.523|
+IN_0           |d              |    7.601|
+IN_0           |e              |    7.867|
+IN_0           |f              |    8.524|
+IN_0           |g              |    8.769|
+IN_1           |a              |    7.598|
+IN_1           |b              |    7.592|
+IN_1           |c              |    7.473|
+IN_1           |d              |    7.480|
+IN_1           |e              |    8.008|
+IN_1           |f              |    8.509|
+IN_1           |g              |    8.910|
+IN_3           |a              |    7.606|
+IN_3           |b              |    8.017|
+IN_3           |c              |    7.602|
+IN_3           |d              |    7.386|
+IN_3           |e              |    7.867|
+IN_3           |f              |    8.234|
+IN_3           |g              |    8.229|
+IN_4           |a              |    7.154|
+IN_4           |b              |    7.891|
+IN_4           |c              |    7.387|
+IN_4           |d              |    7.321|
+IN_4           |e              |    7.812|
+IN_4           |f              |    8.074|
+IN_4           |g              |    8.386|
+---------------+---------------+---------+
+
+
+Analysis completed Sat Nov 07 17:35:06 2020 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 4549 MB
+
+
+

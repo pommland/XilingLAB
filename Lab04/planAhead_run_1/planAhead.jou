@@ -1,0 +1,30 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Fri Nov 06 22:22:32 2020
+# Process ID: 8140
+# Log file: C:/Users/62010472/Documents/XILING_LAB/Lab04/planAhead_run_1/planAhead.log
+# Journal file: C:/Users/62010472/Documents/XILING_LAB/Lab04/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source C:/Users/62010472/Documents/XILING_LAB/Lab04/pa.fromHdl.tcl
+update_compile_order -fileset sim_1
+startgroup
+set_property package_pin P83 [get_ports Buzzer]
+endgroup
+startgroup
+set_property package_pin P55 [get_ports H]
+endgroup
+startgroup
+set_property package_pin P56 [get_ports S]
+endgroup
+startgroup
+set_property package_pin P57 [get_ports B]
+endgroup
+startgroup
+set_property package_pin P58 [get_ports D]
+endgroup
+startgroup
+set_property package_pin P59 [get_ports E]
+endgroup
+save_constraints

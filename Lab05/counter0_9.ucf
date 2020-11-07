@@ -1,0 +1,14 @@
+
+# PlanAhead Generated physical constraints 
+
+NET "IN_4" LOC = P66;
+NET "IN_3" LOC = P62;
+NET "IN_1" LOC = P61;
+NET "IN_0" LOC = P59;
+NET "a" LOC = P41;
+NET "b" LOC = P40;
+NET "c" LOC = P35;
+NET "d" LOC = P34;
+NET "e" LOC = P32;
+NET "f" LOC = P29;
+NET "g" LOC = P27;
