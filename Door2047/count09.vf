@@ -1,0 +1,132 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : count09.vf
+// /___/   /\     Timestamp : 11/09/2020 17:10:49
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -intstyle ise -family spartan6 -verilog C:/Users/62010472/Documents/XilingLAB/Door2047/count09.vf -w C:/Users/62010472/Documents/XilingLAB/Door2047/count09.sch
+//Design Name: count09
+//Device: spartan6
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 100 ps / 10 ps
+
+module FJKC_HXILINX_count09(Q, C, CLR, J, K);
+   
+   output             Q;
+
+   input 	      C;	
+   input 	      CLR;	
+   input              J;
+   input              K;
+   
+   parameter INIT = 1'b0;
+   reg                Q = INIT;
+
+
+   always @(posedge C or posedge CLR)
+     begin
+	if (CLR)
+	  Q <= 1'b0;
+	else
+        begin
+           if(!J)
+           begin
+              if(K)
+              Q <= 1'b0;
+           end
+           else
+           begin
+              if(!K)
+              Q <= 1'b1;
+              else 
+              Q <= !Q;
+           end
+        end
+     end
+   
+endmodule
+`timescale 1ns / 1ps
+
+module count09(CLK_P45, 
+               Bit0_P82, 
+               Bit1_P81, 
+               Bit2_P80, 
+               Bit3_P79, 
+               Tc);
+
+   (* CLOCK_DEDICATED_ROUTE = "TRUE" *) 
+    input CLK_P45;
+   output Bit0_P82;
+   output Bit1_P81;
+   output Bit2_P80;
+   output Bit3_P79;
+   output Tc;
+   
+   wire XLXN_3;
+   wire XLXN_5;
+   wire XLXN_6;
+   wire XLXN_20;
+   wire XLXN_21;
+   wire XLXN_22;
+   wire Bit2_P80_DUMMY;
+   wire Tc_DUMMY;
+   wire Bit1_P81_DUMMY;
+   wire Bit3_P79_DUMMY;
+   wire Bit0_P82_DUMMY;
+   
+   assign Bit0_P82 = Bit0_P82_DUMMY;
+   assign Bit1_P81 = Bit1_P81_DUMMY;
+   assign Bit2_P80 = Bit2_P80_DUMMY;
+   assign Bit3_P79 = Bit3_P79_DUMMY;
+   assign Tc = Tc_DUMMY;
+   (* HU_SET = "XLXI_1_20" *) 
+   FJKC_HXILINX_count09  XLXI_1 (.C(CLK_P45), 
+                                .CLR(Tc_DUMMY), 
+                                .J(XLXN_3), 
+                                .K(XLXN_3), 
+                                .Q(Bit0_P82_DUMMY));
+   (* HU_SET = "XLXI_2_21" *) 
+   FJKC_HXILINX_count09  XLXI_2 (.C(XLXN_21), 
+                                .CLR(Tc_DUMMY), 
+                                .J(XLXN_3), 
+                                .K(XLXN_3), 
+                                .Q(Bit2_P80_DUMMY));
+   (* HU_SET = "XLXI_3_22" *) 
+   FJKC_HXILINX_count09  XLXI_3 (.C(XLXN_22), 
+                                .CLR(Tc_DUMMY), 
+                                .J(XLXN_3), 
+                                .K(XLXN_3), 
+                                .Q(Bit3_P79_DUMMY));
+   VCC  XLXI_4 (.P(XLXN_3));
+   INV  XLXI_5 (.I(Bit0_P82_DUMMY), 
+               .O(XLXN_6));
+   INV  XLXI_6 (.I(Bit2_P80_DUMMY), 
+               .O(XLXN_5));
+   AND4  XLXI_7 (.I0(Bit3_P79_DUMMY), 
+                .I1(XLXN_5), 
+                .I2(Bit1_P81_DUMMY), 
+                .I3(XLXN_6), 
+                .O(Tc_DUMMY));
+   (* HU_SET = "XLXI_8_23" *) 
+   FJKC_HXILINX_count09  XLXI_8 (.C(XLXN_20), 
+                                .CLR(Tc_DUMMY), 
+                                .J(XLXN_3), 
+                                .K(XLXN_3), 
+                                .Q(Bit1_P81_DUMMY));
+   INV  XLXI_12 (.I(Bit0_P82_DUMMY), 
+                .O(XLXN_20));
+   INV  XLXI_13 (.I(Bit1_P81_DUMMY), 
+                .O(XLXN_21));
+   INV  XLXI_14 (.I(Bit2_P80_DUMMY), 
+                .O(XLXN_22));
+endmodule

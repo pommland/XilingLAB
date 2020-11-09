@@ -1,0 +1,44 @@
+select figure at 1906 331 8 -branches -sn=1
+select figure at 1460 1494 8 -branches -sn=1
+select figure at 2478 646 8 -branches -sn=1
+select figure at 1559 499 8 -branches -sn=1
+select all in 1559 499 2188 890 -branches -enclosed -sn=1
+move selection by -1712 0 -keepConn -sn=1
+select figure at 336 1375 8 -branches -sn=1
+select figure at 175 565 8 -branches -sn=1
+select all in 175 565 913 988 -branches -enclosed -sn=1
+select figure at 908 984 8 -branches -sn=1
+select figure at 324 655 8 -branches -sn=1
+select figure at 324 655 8 -branches -all -sn=1
+select figure at 2827 740 8 -branches -sn=1
+select figure at 2519 786 8 -branches -sn=1
+select figure at 699 474 8 -branches -sn=1
+select figure at 120 287 8 -branches -sn=1
+select all in 120 287 3391 2216 -branches -enclosed -sn=1
+select figure at 3411 2202 8 -branches -sn=1
+select figure at 2660 476 8 -branches -sn=1
+select all in 2660 476 3531 1108 -branches -enclosed -sn=1
+select figure at 441 402 8 -branches -sn=1
+select figure at 1195 2207 8 -branches -sn=1
+undo
+undo
+undo
+undo
+undo
+undo
+undo
+undo
+undo
+undo
+undo
+undo
+undo
+undo
+undo
+undo
+undo
+undo
+undo
+undo
+undo
+undo

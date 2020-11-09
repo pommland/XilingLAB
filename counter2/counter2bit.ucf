@@ -1,0 +1,9 @@
+
+# PlanAhead Generated physical constraints 
+
+NET "L0" LOC = P82;
+NET "L1" LOC = P81;
+NET "L2" LOC = P80;
+NET "L3" LOC = P79;
+NET "PB1" LOC = P45;
+NET "PB1" CLOCK_DEDICATED_ROUTE = FALSE;

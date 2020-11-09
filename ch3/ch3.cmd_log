@@ -1,0 +1,23 @@
+xst -intstyle ise -ifn "C:/Users/62010472/Documents/XilingLAB/ch3/ch3.xst" -ofn "C:/Users/62010472/Documents/XilingLAB/ch3/ch3.syr" 
+xst -intstyle ise -ifn "C:/Users/62010472/Documents/XilingLAB/ch3/ch3.xst" -ofn "C:/Users/62010472/Documents/XilingLAB/ch3/ch3.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ch3.ucf -p xc6slx9-tqg144-3 ch3.ngc ch3.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ch3_map.ncd ch3.ngd ch3.pcf 
+par -w -intstyle ise -ol high -mt off ch3_map.ncd ch3.ncd ch3.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ch3.twx ch3.ncd -o ch3.twr ch3.pcf -ucf ch3.ucf 
+bitgen -intstyle ise -f ch3.ut ch3.ncd 
+xst -intstyle ise -ifn "C:/Users/62010472/Documents/XilingLAB/ch3/ch3.xst" -ofn "C:/Users/62010472/Documents/XilingLAB/ch3/ch3.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ch3.ucf -p xc6slx9-tqg144-3 ch3.ngc ch3.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ch3_map.ncd ch3.ngd ch3.pcf 
+par -w -intstyle ise -ol high -mt off ch3_map.ncd ch3.ncd ch3.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ch3.twx ch3.ncd -o ch3.twr ch3.pcf -ucf ch3.ucf 
+bitgen -intstyle ise -f ch3.ut ch3.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ch3.ucf -p xc6slx9-tqg144-3 ch3.ngc ch3.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ch3_map.ncd ch3.ngd ch3.pcf 
+par -w -intstyle ise -ol high -mt off ch3_map.ncd ch3.ncd ch3.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ch3.twx ch3.ncd -o ch3.twr ch3.pcf -ucf ch3.ucf 
+xst -intstyle ise -ifn "C:/Users/62010472/Documents/XilingLAB/ch3/ch3.xst" -ofn "C:/Users/62010472/Documents/XilingLAB/ch3/ch3.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ch3.ucf -p xc6slx9-tqg144-3 ch3.ngc ch3.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ch3_map.ncd ch3.ngd ch3.pcf 
+par -w -intstyle ise -ol high -mt off ch3_map.ncd ch3.ncd ch3.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ch3.twx ch3.ncd -o ch3.twr ch3.pcf -ucf ch3.ucf 
+bitgen -intstyle ise -f ch3.ut ch3.ncd 

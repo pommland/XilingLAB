@@ -1,0 +1,4 @@
+verilog work "count09.vf"
+verilog work "HEX2SEG.vf"
+verilog work "div100k.vf"
+verilog work "segment_upgrade.vf"

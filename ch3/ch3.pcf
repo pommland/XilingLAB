@@ -1,0 +1,15 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Mon Nov 09 16:09:10 2020
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "L2" LOCATE = SITE "P80" LEVEL 1;
+COMP "L3" LOCATE = SITE "P79" LEVEL 1;
+COMP "SW4" LOCATE = SITE "P58" LEVEL 1;
+COMP "SW5" LOCATE = SITE "P57" LEVEL 1;
+COMP "SW7" LOCATE = SITE "P55" LEVEL 1;
+COMP "CLK" LOCATE = SITE "P45" LEVEL 1;
+COMP "CLR" LOCATE = SITE "P56" LEVEL 1;
+COMP "L1" LOCATE = SITE "P81" LEVEL 1;
+SCHEMATIC END;
+

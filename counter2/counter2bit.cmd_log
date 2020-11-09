@@ -1,0 +1,11 @@
+xst -intstyle ise -ifn "C:/Users/62010472/Documents/XilingLAB/counter2/counter2bit.xst" -ofn "C:/Users/62010472/Documents/XilingLAB/counter2/counter2bit.syr" 
+xst -intstyle ise -ifn "C:/Users/62010472/Documents/XilingLAB/counter2/counter2bit.xst" -ofn "C:/Users/62010472/Documents/XilingLAB/counter2/counter2bit.syr" 
+xst -intstyle ise -ifn "C:/Users/62010472/Documents/XilingLAB/counter2/counter2bit.xst" -ofn "C:/Users/62010472/Documents/XilingLAB/counter2/counter2bit.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim counter2bit.ngc counter2bit_synthesis.v 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc counter2bit.ucf -p xc6slx9-tqg144-3 counter2bit.ngc counter2bit.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o counter2bit_map.ncd counter2bit.ngd counter2bit.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc counter2bit.ucf -p xc6slx9-tqg144-3 counter2bit.ngc counter2bit.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o counter2bit_map.ncd counter2bit.ngd counter2bit.pcf 
+par -w -intstyle ise -ol high -mt off counter2bit_map.ncd counter2bit.ncd counter2bit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml counter2bit.twx counter2bit.ncd -o counter2bit.twr counter2bit.pcf -ucf counter2bit.ucf 
+bitgen -intstyle ise -f counter2bit.ut counter2bit.ncd 

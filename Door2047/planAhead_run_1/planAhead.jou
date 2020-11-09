@@ -1,0 +1,11 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Mon Nov 09 17:13:31 2020
+# Process ID: 17044
+# Log file: C:/Users/62010472/Documents/XilingLAB/Door2047/planAhead_run_1/planAhead.log
+# Journal file: C:/Users/62010472/Documents/XilingLAB/Door2047/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source C:/Users/62010472/Documents/XilingLAB/Door2047/pa.fromHdl.tcl
+update_compile_order -fileset sim_1
