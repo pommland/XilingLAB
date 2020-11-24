@@ -1,0 +1,149 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : counter5_2.vf
+// /___/   /\     Timestamp : 11/20/2020 15:13:01
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -intstyle ise -family spartan6 -verilog C:/Users/62010472/Documents/XilingLAB/counter5_2/counter5_2.vf -w C:/Users/62010472/Documents/XilingLAB/counter5_2/counter5_2.sch
+//Design Name: counter5_2
+//Device: spartan6
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 100 ps / 10 ps
+
+module CB2CE_HXILINX_counter5_2(CEO, Q0, Q1, TC, C, CE, CLR);
+   
+   localparam TERMINAL_COUNT = 2'b11;
+   
+   output             CEO;
+   output             Q0;
+   output             Q1;
+   output             TC;
+
+   input 	      C;	
+   input 	      CE;	
+   input 	      CLR;	
+   
+   reg                Q0;
+   reg                Q1;
+   
+   always @(posedge C or posedge CLR)
+     begin
+	if (CLR)
+	  {Q1, Q0} <= 2'b00;
+	else if (CE)
+	  {Q1,Q0} <= {Q1,Q0} + 1;
+     end
+   
+   assign CEO = TC & CE;
+   assign TC = ({Q1,Q0} == TERMINAL_COUNT);
+   
+endmodule
+`timescale 1ns / 1ps
+
+module encode_MUSER_counter5_2(ins_0, 
+                               ins_1, 
+                               bits_1, 
+                               bits_2, 
+                               bits_3, 
+                               bits_4);
+
+    input ins_0;
+    input ins_1;
+   output bits_1;
+   output bits_2;
+   output bits_3;
+   output bits_4;
+   
+   
+   XOR2  XLXI_1 (.I0(ins_0), 
+                .I1(ins_0), 
+                .O(bits_3));
+   AND2  XLXI_2 (.I0(ins_1), 
+                .I1(ins_0), 
+                .O(bits_2));
+   XOR2  XLXI_3 (.I0(ins_1), 
+                .I1(ins_0), 
+                .O(bits_1));
+   GND  XLXI_4 (.G(bits_4));
+endmodule
+`timescale 1ns / 1ps
+
+module counter5_2(CLK_P123, 
+                  a, 
+                  b, 
+                  c, 
+                  C1_P43, 
+                  C2_P33, 
+                  C3_P30, 
+                  d, 
+                  e, 
+                  f, 
+                  g);
+
+    input CLK_P123;
+   output a;
+   output b;
+   output c;
+   output C1_P43;
+   output C2_P33;
+   output C3_P30;
+   output d;
+   output e;
+   output f;
+   output g;
+   
+   wire IN_0;
+   wire IN_1;
+   wire IN_3;
+   wire IN_4;
+   wire XLXN_4;
+   wire XLXN_5;
+   wire XLXN_24;
+   wire XLXN_25;
+   wire XLXN_30;
+   
+   counter0_9  XLXI_1 (.IN_0(IN_0), 
+                      .IN_1(IN_1), 
+                      .IN_3(IN_3), 
+                      .IN_4(IN_4), 
+                      .a(a), 
+                      .b(b), 
+                      .c(c), 
+                      .C1_P43(C1_P43), 
+                      .C2_P33(C2_P33), 
+                      .C3_P30(C3_P30), 
+                      .d(d), 
+                      .e(e), 
+                      .f(f), 
+                      .g(g));
+   div20m  XLXI_2 (.CLK_P123(CLK_P123), 
+                  .CLK_OUT(XLXN_24));
+   (* HU_SET = "XLXI_3_10" *) 
+   CB2CE_HXILINX_counter5_2  XLXI_3 (.C(XLXN_24), 
+                                    .CE(XLXN_30), 
+                                    .CLR(XLXN_25), 
+                                    .CEO(), 
+                                    .Q0(XLXN_4), 
+                                    .Q1(XLXN_5), 
+                                    .TC());
+   encode_MUSER_counter5_2  XLXI_4 (.ins_0(XLXN_4), 
+                                   .ins_1(XLXN_5), 
+                                   .bits_1(IN_0), 
+                                   .bits_2(IN_1), 
+                                   .bits_3(IN_3), 
+                                   .bits_4(IN_4));
+   AND2  XLXI_8 (.I0(XLXN_5), 
+                .I1(XLXN_4), 
+                .O(XLXN_25));
+   VCC  XLXI_9 (.P(XLXN_30));
+endmodule

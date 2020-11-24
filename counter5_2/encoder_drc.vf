@@ -1,0 +1,48 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : encoder_drc.vf
+// /___/   /\     Timestamp : 11/20/2020 14:33:38
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt\unwrapped\sch2hdl.exe -intstyle ise -family spartan6 -verilog encoder_drc.vf -w C:/Users/62010472/Documents/XilingLAB/counter5_2/encoder.sch
+//Design Name: encoder
+//Device: spartan6
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module encoder(ins_0, 
+               ins_1, 
+               bits_1, 
+               bits_2, 
+               bits_3, 
+               bits_4);
+
+    input ins_0;
+    input ins_1;
+   output bits_1;
+   output bits_2;
+   output bits_3;
+   output bits_4;
+   
+   
+   AND2  XLXI_1 (.I0(ins_1), 
+                .I1(ins_0), 
+                .O(bits_2));
+   XOR2  XLXI_2 (.I0(ins_1), 
+                .I1(ins_0), 
+                .O(bits_1));
+   XOR2  XLXI_3 (.I0(ins_0), 
+                .I1(ins_0), 
+                .O(bits_3));
+   GND  XLXI_4 (.G(bits_4));
+endmodule

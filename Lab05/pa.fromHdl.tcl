@@ -1,7 +1,7 @@
 
 # PlanAhead Launch Script for Pre-Synthesis Floorplanning, created by Project Navigator
 
-create_project -name Lab05 -dir "C:/Users/62010472/Documents/XILING_LAB/Lab05/planAhead_run_1" -part xc6slx9tqg144-3
+create_project -name Lab05 -dir "C:/Users/62010472/Documents/XilingLAB/Lab05/planAhead_run_2" -part xc6slx9tqg144-3
 set_param project.pinAheadLayout yes
 set srcset [get_property srcset [current_run -impl]]
 set_property target_constrs_file "counter0_9.ucf" [current_fileset -constrset]

@@ -1,0 +1,48 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : encode.vf
+// /___/   /\     Timestamp : 11/20/2020 15:13:00
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -intstyle ise -family spartan6 -verilog C:/Users/62010472/Documents/XilingLAB/counter5_2/encode.vf -w C:/Users/62010472/Documents/XilingLAB/counter5_2/encode.sch
+//Design Name: encode
+//Device: spartan6
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module encode(ins_0, 
+              ins_1, 
+              bits_1, 
+              bits_2, 
+              bits_3, 
+              bits_4);
+
+    input ins_0;
+    input ins_1;
+   output bits_1;
+   output bits_2;
+   output bits_3;
+   output bits_4;
+   
+   
+   XOR2  XLXI_1 (.I0(ins_0), 
+                .I1(ins_0), 
+                .O(bits_3));
+   AND2  XLXI_2 (.I0(ins_1), 
+                .I1(ins_0), 
+                .O(bits_2));
+   XOR2  XLXI_3 (.I0(ins_1), 
+                .I1(ins_0), 
+                .O(bits_1));
+   GND  XLXI_4 (.G(bits_4));
+endmodule

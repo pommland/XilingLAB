@@ -1,0 +1,77 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Fri Nov 20 15:13:41 2020
+# Process ID: 7272
+# Log file: C:/Users/62010472/Documents/XilingLAB/counter5_2/planAhead_run_3/planAhead.log
+# Journal file: C:/Users/62010472/Documents/XilingLAB/counter5_2/planAhead_run_3/planAhead.jou
+#-----------------------------------------------------------
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Device 21-36] Loading parts and site information from C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+source C:/Users/62010472/Documents/XilingLAB/counter5_2/pa.fromHdl.tcl
+# create_project -name counter5_2 -dir "C:/Users/62010472/Documents/XilingLAB/counter5_2/planAhead_run_3" -part xc6slx9tqg144-3
+# set_param project.pinAheadLayout yes
+# set srcset [get_property srcset [current_run -impl]]
+# set_property target_constrs_file "counter5_2.ucf" [current_fileset -constrset]
+Adding file 'C:/Users/62010472/Documents/XilingLAB/counter5_2/counter5_2.ucf' to fileset 'constrs_1'
+# set hdlfile [add_files [list {count09.vf}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {div20m.vf}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {counter0_9.vf}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {encode.vf}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {counter5_2.vf}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set_property top counter5_2 $srcset
+# add_files [list {counter5_2.ucf}] -fileset [get_property constrset [current_run]]
+# open_rtl_design -part xc6slx9tqg144-3
+Using Verific elaboration
+Parsing VHDL file "C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/lib/synplify/synattr.vhd" into library synplify
+Analyzing Verilog file "C:/Users/62010472/Documents/XilingLAB/counter5_2/div20m.vf" into library work
+Analyzing Verilog file "C:/Users/62010472/Documents/XilingLAB/counter5_2/counter0_9.vf" into library work
+Analyzing Verilog file "C:/Users/62010472/Documents/XilingLAB/counter5_2/counter5_2.vf" into library work
+Loading clock regions from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/spartan6lx/xc6slx9/ClockRegion.xml
+Loading clock buffers from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/spartan6lx/xc6slx9/ClockBuffers.xml
+Loading package pin functions from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/PinFunctions.xml...
+Loading package from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/spartan6lx/xc6slx9/tqg144/Package.xml
+Loading io standards from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan6/IOStandards.xml
+Loading device configuration modes from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/ConfigModes.xml
+Loading list of drcs for the architecture : C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan6/drc.xml
+Parsing UCF File [C:/Users/62010472/Documents/XilingLAB/counter5_2/counter5_2.ucf]
+CRITICAL WARNING: [Constraints 18-5] Cannot loc instance 'XLXI_4/XLXI_3' at site P59, Illegal to place instance XLXI_4/XLXI_3 on site P59 [C:/Users/62010472/Documents/XilingLAB/counter5_2/counter5_2.ucf:14]
+CRITICAL WARNING: [Constraints 18-5] Cannot loc instance 'XLXI_4/XLXI_2' at site P61, Illegal to place instance XLXI_4/XLXI_2 on site P61 [C:/Users/62010472/Documents/XilingLAB/counter5_2/counter5_2.ucf:15]
+CRITICAL WARNING: [Constraints 18-5] Cannot loc instance 'XLXI_4/XLXI_1' at site P62, Illegal to place instance XLXI_4/XLXI_1 on site P62 [C:/Users/62010472/Documents/XilingLAB/counter5_2/counter5_2.ucf:16]
+CRITICAL WARNING: [Constraints 18-5] Cannot loc instance 'XLXI_4/XLXI_4' at site P66, Unknown instance type 'GND' [C:/Users/62010472/Documents/XilingLAB/counter5_2/counter5_2.ucf:17]
+Finished Parsing UCF File [C:/Users/62010472/Documents/XilingLAB/counter5_2/counter5_2.ucf]
+INFO: [Designutils 20-20] Invalid constraints found, use command 'write_ucf -constraints invalid <file>' to save all the invalid constraints to a file
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Phase 0 | Netlist Checksum: e70f52bb
+open_rtl_design: Time (s): elapsed = 00:00:09 . Memory (MB): peak = 645.832 ; gain = 164.473
+update_compile_order -fileset sim_1
+startgroup
+set_property package_pin P123 [get_ports CLK_P123]
+endgroup
+save_constraints
+exit
+ERROR: [PlanAhead 12-106] *** Exception: ui.h.b: Found deleted key in HTclEventBroker. Verify if the classes listed here call cleanup()
+HTclEvent: SIGNAL_MODIFY   Classes: ui.views.aR 
+HTclEvent: DEBUG_PORT_CONFIG_CHANGE   Classes: ui.views.aR 
+HTclEvent: SIGNAL_BUS_MODIFY   Classes: ui.views.aR 
+HTclEvent: DEBUG_CORE_CONFIG_CHANGE   Classes: ui.views.aR 
+ (See C:/Users/62010472/Documents/XilingLAB/counter5_2\planAhead_pid7272.debug)
+ERROR: [Common 17-39] 'stop_gui' failed due to earlier errors.
+INFO: [Common 17-206] Exiting PlanAhead at Fri Nov 20 15:14:52 2020...
+INFO: [Common 17-83] Releasing license: PlanAhead

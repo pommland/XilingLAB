@@ -8,3 +8,4 @@ par -w -intstyle ise -ol high -mt off counter0_9_map.ncd counter0_9.ncd counter0
 trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml counter0_9.twx counter0_9.ncd -o counter0_9.twr counter0_9.pcf -ucf counter0_9.ucf 
 bitgen -intstyle ise -f counter0_9.ut counter0_9.ncd 
 netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim counter0_9.ngc counter0_9_synthesis.v 
+xst -intstyle ise -ifn "C:/Users/62010472/Documents/XilingLAB/Lab05/counter0_9.xst" -ofn "C:/Users/62010472/Documents/XilingLAB/Lab05/counter0_9.syr" 

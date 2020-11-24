@@ -4,13 +4,13 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.12 secs
+Total CPU time to Xst completion: 0.17 secs
  
 --> Parameter xsthdpdir set to xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.12 secs
+Total CPU time to Xst completion: 0.17 secs
  
 --> Reading design: counter0_9.prj
 
@@ -105,7 +105,7 @@ Slice Utilization Ratio Delta      : 5
 =========================================================================
 *                          HDL Parsing                                  *
 =========================================================================
-Analyzing Verilog file "C:\Users\62010472\Documents\XILING_LAB\Lab05\counter0_9.vf" into library work
+Analyzing Verilog file "C:\Users\62010472\Documents\XilingLAB\Lab05\counter0_9.vf" into library work
 Parsing module <counter0_9>.
 
 =========================================================================
@@ -130,12 +130,14 @@ Elaborating module <OR5>.
 
 Elaborating module <OR2>.
 
+Elaborating module <VCC>.
+
 =========================================================================
 *                           HDL Synthesis                               *
 =========================================================================
 
 Synthesizing Unit <counter0_9>.
-    Related source file is "C:\Users\62010472\Documents\XILING_LAB\Lab05\counter0_9.vf".
+    Related source file is "C:\Users\62010472\Documents\XilingLAB\Lab05\counter0_9.vf".
     Summary:
 	no macro.
 Unit <counter0_9> synthesized.
@@ -194,7 +196,7 @@ Top Level Output File Name         : counter0_9.ngc
 
 Primitive and Black Box Usage:
 ------------------------------
-# BELS                             : 85
+# BELS                             : 86
 #      AND2                        : 6
 #      AND3                        : 19
 #      AND4                        : 1
@@ -203,9 +205,10 @@ Primitive and Black Box Usage:
 #      OR3                         : 1
 #      OR4                         : 4
 #      OR5                         : 1
-# IO Buffers                       : 11
+#      VCC                         : 1
+# IO Buffers                       : 14
 #      IBUF                        : 4
-#      OBUF                        : 7
+#      OBUF                        : 10
 
 Device utilization summary:
 ---------------------------
@@ -225,8 +228,8 @@ Slice Logic Distribution:
    Number of unique control sets:         0
 
 IO Utilization: 
- Number of IOs:                          11
- Number of bonded IOBs:                  11  out of    102    10%  
+ Number of IOs:                          14
+ Number of bonded IOBs:                  14  out of    102    13%  
 
 Specific Feature Utilization:
 
@@ -296,12 +299,12 @@ Cross Clock Domains Report:
 =========================================================================
 
 
-Total REAL time to Xst completion: 4.00 secs
-Total CPU time to Xst completion: 4.81 secs
+Total REAL time to Xst completion: 6.00 secs
+Total CPU time to Xst completion: 6.00 secs
  
 --> 
 
-Total memory usage is 4507364 kilobytes
+Total memory usage is 4507176 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :    0 (   0 filtered)

@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\62010472\Documents\XilingLAB\counter5_2\counter0_9.ncd
+OUTFILE=C:\Users\62010472\Documents\XilingLAB\counter5_2\counter0_9.bit
+FAMILY=Spartan6
+PART=xc6slx9-3tqg144
+WORKINGDIR=C:\Users\62010472\Documents\XilingLAB\counter5_2
+LICENSE=WebPack
+USER_INFO=__0_0_0

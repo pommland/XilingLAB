@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="552" delta="old" >"C:\Users\62010472\Documents\XilingLAB\counter5_2\div20m.vf" Line 217: Input port <arg fmt="%s" index="1">CLR</arg> is not connected on this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\62010472\Documents\XilingLAB\counter5_2\counter5_2.vf" Line 44: Result of <arg fmt="%d" index="1">3</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">2</arg>-bit target.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\62010472\Documents\XilingLAB\counter5_2\counter5_2.vf</arg>&quot; line <arg fmt="%s" index="2">132</arg>: Output port &lt;<arg fmt="%s" index="3">CEO</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_3</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\62010472\Documents\XilingLAB\counter5_2\counter5_2.vf</arg>&quot; line <arg fmt="%s" index="2">132</arg>: Output port &lt;<arg fmt="%s" index="3">TC</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_3</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="warning" file="Xst" num="2898" delta="old" >Port &apos;<arg fmt="%s" index="1">CLR</arg>&apos;, unconnected in block instance &apos;<arg fmt="%s" index="2">XLXI_22</arg>&apos;, is tied to GND.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\62010472\Documents\XilingLAB\counter5_2\div20m.vf</arg>&quot; line <arg fmt="%s" index="2">174</arg>: Output port &lt;<arg fmt="%s" index="3">Bit0_P82</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_2</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\62010472\Documents\XilingLAB\counter5_2\div20m.vf</arg>&quot; line <arg fmt="%s" index="2">174</arg>: Output port &lt;<arg fmt="%s" index="3">Bit1_P81</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_2</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\62010472\Documents\XilingLAB\counter5_2\div20m.vf</arg>&quot; line <arg fmt="%s" index="2">174</arg>: Output port &lt;<arg fmt="%s" index="3">Bit2_P80</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_2</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\62010472\Documents\XilingLAB\counter5_2\div20m.vf</arg>&quot; line <arg fmt="%s" index="2">174</arg>: Output port &lt;<arg fmt="%s" index="3">Bit3_P79</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_2</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\62010472\Documents\XilingLAB\counter5_2\div20m.vf</arg>&quot; line <arg fmt="%s" index="2">180</arg>: Output port &lt;<arg fmt="%s" index="3">Bit0_P82</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_3</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\62010472\Documents\XilingLAB\counter5_2\div20m.vf</arg>&quot; line <arg fmt="%s" index="2">180</arg>: Output port &lt;<arg fmt="%s" index="3">Bit1_P81</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_3</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\62010472\Documents\XilingLAB\counter5_2\div20m.vf</arg>&quot; line <arg fmt="%s" index="2">180</arg>: Output port &lt;<arg fmt="%s" index="3">Bit2_P80</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_3</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\62010472\Documents\XilingLAB\counter5_2\div20m.vf</arg>&quot; line <arg fmt="%s" index="2">180</arg>: Output port &lt;<arg fmt="%s" index="3">Bit3_P79</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_3</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\62010472\Documents\XilingLAB\counter5_2\div20m.vf</arg>&quot; line <arg fmt="%s" index="2">186</arg>: Output port &lt;<arg fmt="%s" index="3">Bit0_P82</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_4</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\62010472\Documents\XilingLAB\counter5_2\div20m.vf</arg>&quot; line <arg fmt="%s" index="2">186</arg>: Output port &lt;<arg fmt="%s" index="3">Bit1_P81</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_4</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\62010472\Documents\XilingLAB\counter5_2\div20m.vf</arg>&quot; line <arg fmt="%s" index="2">186</arg>: Output port &lt;<arg fmt="%s" index="3">Bit2_P80</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_4</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\62010472\Documents\XilingLAB\counter5_2\div20m.vf</arg>&quot; line <arg fmt="%s" index="2">186</arg>: Output port &lt;<arg fmt="%s" index="3">Bit3_P79</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_4</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\62010472\Documents\XilingLAB\counter5_2\div20m.vf</arg>&quot; line <arg fmt="%s" index="2">192</arg>: Output port &lt;<arg fmt="%s" index="3">Bit0_P82</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_5</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\62010472\Documents\XilingLAB\counter5_2\div20m.vf</arg>&quot; line <arg fmt="%s" index="2">192</arg>: Output port &lt;<arg fmt="%s" index="3">Bit1_P81</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_5</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\62010472\Documents\XilingLAB\counter5_2\div20m.vf</arg>&quot; line <arg fmt="%s" index="2">192</arg>: Output port &lt;<arg fmt="%s" index="3">Bit2_P80</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_5</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\62010472\Documents\XilingLAB\counter5_2\div20m.vf</arg>&quot; line <arg fmt="%s" index="2">192</arg>: Output port &lt;<arg fmt="%s" index="3">Bit3_P79</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_5</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\62010472\Documents\XilingLAB\counter5_2\div20m.vf</arg>&quot; line <arg fmt="%s" index="2">198</arg>: Output port &lt;<arg fmt="%s" index="3">Bit0_P82</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_6</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\62010472\Documents\XilingLAB\counter5_2\div20m.vf</arg>&quot; line <arg fmt="%s" index="2">198</arg>: Output port &lt;<arg fmt="%s" index="3">Bit1_P81</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_6</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\62010472\Documents\XilingLAB\counter5_2\div20m.vf</arg>&quot; line <arg fmt="%s" index="2">198</arg>: Output port &lt;<arg fmt="%s" index="3">Bit2_P80</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_6</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\62010472\Documents\XilingLAB\counter5_2\div20m.vf</arg>&quot; line <arg fmt="%s" index="2">198</arg>: Output port &lt;<arg fmt="%s" index="3">Bit3_P79</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_6</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\62010472\Documents\XilingLAB\counter5_2\div20m.vf</arg>&quot; line <arg fmt="%s" index="2">204</arg>: Output port &lt;<arg fmt="%s" index="3">Bit0_P82</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_7</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\62010472\Documents\XilingLAB\counter5_2\div20m.vf</arg>&quot; line <arg fmt="%s" index="2">204</arg>: Output port &lt;<arg fmt="%s" index="3">Bit1_P81</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_7</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\62010472\Documents\XilingLAB\counter5_2\div20m.vf</arg>&quot; line <arg fmt="%s" index="2">204</arg>: Output port &lt;<arg fmt="%s" index="3">Bit2_P80</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_7</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\62010472\Documents\XilingLAB\counter5_2\div20m.vf</arg>&quot; line <arg fmt="%s" index="2">204</arg>: Output port &lt;<arg fmt="%s" index="3">Bit3_P79</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_7</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\62010472\Documents\XilingLAB\counter5_2\div20m.vf</arg>&quot; line <arg fmt="%s" index="2">210</arg>: Output port &lt;<arg fmt="%s" index="3">Bit0_P82</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_10</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\62010472\Documents\XilingLAB\counter5_2\div20m.vf</arg>&quot; line <arg fmt="%s" index="2">210</arg>: Output port &lt;<arg fmt="%s" index="3">Bit1_P81</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_10</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\62010472\Documents\XilingLAB\counter5_2\div20m.vf</arg>&quot; line <arg fmt="%s" index="2">210</arg>: Output port &lt;<arg fmt="%s" index="3">Bit2_P80</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_10</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\62010472\Documents\XilingLAB\counter5_2\div20m.vf</arg>&quot; line <arg fmt="%s" index="2">210</arg>: Output port &lt;<arg fmt="%s" index="3">Bit3_P79</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_10</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="2169" delta="old" >HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+</msg>
+
+</messages>
+

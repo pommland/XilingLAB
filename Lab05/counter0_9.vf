@@ -7,11 +7,11 @@
 // \   \   \/     Version : 14.7
 //  \   \         Application : sch2hdl
 //  /   /         Filename : counter0_9.vf
-// /___/   /\     Timestamp : 11/07/2020 17:27:51
+// /___/   /\     Timestamp : 11/20/2020 11:55:26
 // \   \  /  \ 
 //  \___\/\___\ 
 //
-//Command: sch2hdl -intstyle ise -family spartan6 -verilog C:/Users/62010472/Documents/XILING_LAB/Lab05/counter0_9.vf -w C:/Users/62010472/Documents/XILING_LAB/Lab05/counter0_9.sch
+//Command: sch2hdl -intstyle ise -family spartan6 -verilog C:/Users/62010472/Documents/XilingLAB/Lab05/counter0_9.vf -w C:/Users/62010472/Documents/XilingLAB/Lab05/counter0_9.sch
 //Design Name: counter0_9
 //Device: spartan6
 //Purpose:
@@ -27,6 +27,9 @@ module counter0_9(IN_0,
                   a, 
                   b, 
                   c, 
+                  C1_P43, 
+                  C2_P33, 
+                  C3_P30, 
                   d, 
                   e, 
                   f, 
@@ -39,6 +42,9 @@ module counter0_9(IN_0,
    output a;
    output b;
    output c;
+   output C1_P43;
+   output C2_P33;
+   output C3_P30;
    output d;
    output e;
    output f;
@@ -359,4 +365,7 @@ module counter0_9(IN_0,
                  .O(XLXN_228));
    INV  XLXI_232 (.I(IN_3), 
                  .O(XLXN_227));
+   VCC  XLXI_233 (.P(C1_P43));
+   VCC  XLXI_234 (.P(C2_P33));
+   VCC  XLXI_235 (.P(C3_P30));
 endmodule

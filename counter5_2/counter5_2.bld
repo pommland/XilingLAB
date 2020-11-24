@@ -1,0 +1,113 @@
+Release 14.7 ngdbuild P.20131013 (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Command Line: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt\unwrapped\ngdbuild.exe -intstyle
+ise -dd _ngo -nt timestamp -uc counter5_2.ucf -p xc6slx9-tqg144-3 counter5_2.ngc
+counter5_2.ngd
+
+Reading NGO file
+"C:/Users/62010472/Documents/XilingLAB/counter5_2/counter5_2.ngc" ...
+Gathering constraint information from source properties...
+Done.
+
+Annotating constraints to design from ucf file "counter5_2.ucf" ...
+Resolving constraint associations...
+Checking Constraint Associations...
+WARNING:ConstraintSystem:119 - Constraint <NET "XLXI_2/XLXN_30"
+   CLOCK_DEDICATED_ROUTE>: This constraint cannot be distributed from the design
+   objects matching 'NET: UniqueName: /counter5_2/EXPANDED/XLXI_2\/XLXN_30'
+   because those design objects do not contain or drive any instances of the
+   correct type.
+
+WARNING:ConstraintSystem:119 - Constraint <NET "XLXI_2/XLXN_12"
+   CLOCK_DEDICATED_ROUTE>: This constraint cannot be distributed from the design
+   objects matching 'NET: UniqueName: /counter5_2/EXPANDED/XLXI_2\/XLXN_12'
+   because those design objects do not contain or drive any instances of the
+   correct type.
+
+WARNING:ConstraintSystem:119 - Constraint <NET "XLXI_2/XLXN_13"
+   CLOCK_DEDICATED_ROUTE>: This constraint cannot be distributed from the design
+   objects matching 'NET: UniqueName: /counter5_2/EXPANDED/XLXI_2\/XLXN_13'
+   because those design objects do not contain or drive any instances of the
+   correct type.
+
+WARNING:ConstraintSystem:119 - Constraint <NET "XLXI_2/XLXN_14"
+   CLOCK_DEDICATED_ROUTE>: This constraint cannot be distributed from the design
+   objects matching 'NET: UniqueName: /counter5_2/EXPANDED/XLXI_2\/XLXN_14'
+   because those design objects do not contain or drive any instances of the
+   correct type.
+
+WARNING:ConstraintSystem:119 - Constraint <NET "XLXI_2/XLXN_15"
+   CLOCK_DEDICATED_ROUTE>: This constraint cannot be distributed from the design
+   objects matching 'NET: UniqueName: /counter5_2/EXPANDED/XLXI_2\/XLXN_15'
+   because those design objects do not contain or drive any instances of the
+   correct type.
+
+WARNING:ConstraintSystem:119 - Constraint <NET "XLXI_2/XLXN_16"
+   CLOCK_DEDICATED_ROUTE>: This constraint cannot be distributed from the design
+   objects matching 'NET: UniqueName: /counter5_2/EXPANDED/XLXI_2\/XLXN_16'
+   because those design objects do not contain or drive any instances of the
+   correct type.
+
+WARNING:ConstraintSystem:119 - Constraint <NET "XLXI_2/XLXN_25"
+   CLOCK_DEDICATED_ROUTE>: This constraint cannot be distributed from the design
+   objects matching 'NET: UniqueName: /counter5_2/EXPANDED/XLXI_2\/XLXN_25'
+   because those design objects do not contain or drive any instances of the
+   correct type.
+
+WARNING:ConstraintSystem:119 - Constraint <NET "IN_0" LOC = P59;>
+   [counter5_2.ucf(13)]: This constraint cannot be distributed from the design
+   objects matching 'NET "IN_0"' because those design objects do not contain or
+   drive any instances of the correct type.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "IN_0" LOC = P59;> [counter5_2.ucf(13)]' could not be found and so the
+   Locate constraint will be removed.
+
+WARNING:ConstraintSystem:119 - Constraint <NET "IN_1" LOC = P61;>
+   [counter5_2.ucf(14)]: This constraint cannot be distributed from the design
+   objects matching 'NET "IN_1"' because those design objects do not contain or
+   drive any instances of the correct type.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "IN_1" LOC = P61;> [counter5_2.ucf(14)]' could not be found and so the
+   Locate constraint will be removed.
+
+WARNING:ConstraintSystem:119 - Constraint <NET "IN_3" LOC = P62;>
+   [counter5_2.ucf(15)]: This constraint cannot be distributed from the design
+   objects matching 'NET "IN_3"' because those design objects do not contain or
+   drive any instances of the correct type.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "IN_3" LOC = P62;> [counter5_2.ucf(15)]' could not be found and so the
+   Locate constraint will be removed.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "IN_4" LOC = P66;> [counter5_2.ucf(16)]' could not be found and so the
+   Locate constraint will be removed.
+
+WARNING:NgdBuild:1012 - The constraint <NET "IN_4" LOC = P66;>
+   [counter5_2.ucf(16)] is overridden on the design object C1_P43 by the
+   constraint <NET "C1_P43" LOC = P43;> [counter5_2.ucf(6)].
+Done...
+
+Checking expanded design ...
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:  15
+
+Total memory usage is 140872 kilobytes
+
+Writing NGD file "counter5_2.ngd" ...
+Total REAL time to NGDBUILD completion:  2 sec
+Total CPU time to NGDBUILD completion:   2 sec
+
+Writing NGDBUILD log file "counter5_2.bld"...
